@@ -1,0 +1,49 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "files.insertFinalNewline": true,
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "remote.SSH.useLocalServer": false,
+    "terminal.integrated.inheritEnv": false,
+    "remote.SSH.remotePlatform": {
+        "dus-sysval084": "windows",
+        "ci-dev11.fw.cluster": "linux"
+    },
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "prettier.tabWidth": 4,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontSize": 13,
+    "doxdocgen.generic.briefTemplate": "@brief{indent:14}",
+    "doxdocgen.generic.paramTemplate": "@param[in]{indent:14}{param}{indent:38}",
+    "doxdocgen.generic.returnTemplate": "@return{indent:14}",
+    "doxdocgen.generic.order": ["brief", "empty", "param", "empty", "return"],
+    "cmake.configureOnOpen": true,
+    "C_Cpp.vcFormat.indent.preprocessor": "none",
+    "workbench.editor.showTabs": false,
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "files.associations": {
+        "*.odj": "json"
+    },
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["ctrl+t"],
+            "when": "!sideBarFocus",
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+                "workbench.action.toggleActivityBarVisibility"
+            ]
+        }
+    ],
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "diffEditor.wordWrap": "off",
+    "editor.formatOnSave": true
+}
